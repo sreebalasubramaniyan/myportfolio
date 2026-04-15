@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="index.html" class="logo">SB</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link active">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <ul class="mobile-nav-links" id="mobileNav">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content page-content">
+        <section class="section">
+            <div class="container">
+                <h1 class="page-title fade-in-up">Skills</h1>
+                <div class="skills-grid">
+                    <div class="skill-card fade-in-up">
+                        <div class="skill-icon">&#x1F4BB;</div>
+                        <h3>Frontend Development</h3>
+                        <p>Expert in HTML5, CSS3, JavaScript, and modern frameworks to build responsive and interactive user interfaces.</p>
+                    </div>
+                    <div class="skill-card fade-in-up">
+                        <div class="skill-icon">&#x1F3A8;</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and visually appealing designs that enhance user experience and engagement.</p>
+                    </div>
+                    <div class="skill-card fade-in-up">
+                        <div class="skill-icon">&#x26A1;</div>
+                        <h3>Performance Optimization</h3>
+                        <p>Optimizing websites for speed and efficiency, ensuring fast load times and smooth interactions.</p>
+                    </div>
+                    <div class="skill-card fade-in-up">
+                        <div class="skill-icon">&#x1F527;</div>
+                        <h3>Problem Solving</h3>
+                        <p>Adept at debugging, troubleshooting, and finding innovative solutions to complex challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
